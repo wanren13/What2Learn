@@ -1,0 +1,39 @@
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.result {
+    padding: 12px 0 8px 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.result:hover{
+	background-color: #e9e9e9;
+}
+
+.result a {
+	text-decoration: none;
+}
+
+/* unvisited link */
+.result a:link {
+    color: #006fa6;
+}
+
+/* visited link */
+.result a:visited {
+    color: #006fa6;
+}
+
+/* mouse over link */
+.result a:hover {
+    color: #006fa6;
+}
+
+/* selected link */
+.result a:active {
+    color: #006fa6;
+}

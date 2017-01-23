@@ -1,0 +1,124 @@
+.block{
+    background: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    margin-top: 20px;
+}
+
+h1 {
+	font-size: 21px!important;
+    line-height: 1.3!important;
+    font-family: Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+	display: block;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: rgb(0, 102, 192);
+	line-height: 19px;
+	margin: 0;
+}
+
+h3 {
+	background: #333;
+    color: #fff;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: bold;
+    padding: 7.5px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    padding: 12px 0 8px 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+hr {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: #CCC 1px solid;
+    line-height: 19px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.sub_title {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+}
+
+.skill_set ul {
+    margin-left: 5px;
+}
+
+.skill_set li {
+    display: inline-block;
+    padding: 0 13px 0 13px;
+    margin: 0 5px 5px 0;
+    border: 0;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    font-family: Arial, sans-serif;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.skill_set a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+.skill_set a:link {
+    color: rgb(51, 51, 51);
+}
+
+/* visited link */
+.skill_set a:visited {
+    color: rgb(51, 51, 51);
+}
+
+/* mouse over link */
+.skill_set a:hover {
+    color: rgb(51, 51, 51);
+}
+
+/* selected link */
+.skill_set a:active {
+    color: rgb(51, 51, 51);
